@@ -1,4 +1,4 @@
-# PDSA Set 1
+# GATE PDSA Set 1
 
 ## Question 1
 **Tags:** GATE-2019(modified), Python Programming, Control Flow
