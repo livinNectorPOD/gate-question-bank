@@ -257,6 +257,6 @@ For the 2nd element, 1 comparison is needed.
 And so on, until the $n$th element requiring $(n - 1)$ comparisons.
 
 The total comparisons needed to insert $n$ elements is the sum of the first $n - 1$ natural numbers, given by:
-$$ 0 + 1 + 2 + \ldots + (n - 1) = \frac{n(n - 1)}{2} = O(n^2) $$
+$$ 1 + 2 + \ldots + (n - 1) = \frac{n(n - 1)}{2} = O(n^2) $$
 
 Therefore, in the worst case, the time complexity of inserting $n$ elements into a sorted linked list is $\Theta(n^2)$.
