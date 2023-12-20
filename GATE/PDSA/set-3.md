@@ -46,7 +46,7 @@ Suppose a stack implementation supports an instruction REVERSE, which reverses t
 - [x] A queue can be implemented where ENQUEUE takes a sequence of three instructions and DEQUEUE takes a single instruction.
 - [ ] A queue can be implemented where both ENQUEUE and DEQUEUE take a single instruction each.
 
-#### Feedback
+### Feedback
 With the REVERSE instruction, a queue can be implemented using this modified stack where ENQUEUE would require a sequence of three instructions (PUSH, REVERSE, PUSH), and DEQUEUE would require a single instruction (POP).
 
 ## Question 3
@@ -231,7 +231,7 @@ Let H be a binary min-heap consisting of \(n\) elements implemented as an array.
 - [x] \(\Theta(n)\)
 - [ ] \(\Theta(n \text{ log } n)\)
 
-### Explanation
+### Feedback
 In a binary min-heap:
 - The maximum element is always a leaf node in the heap, and to find the maximum element, we need to traverse all leaf nodes to identify the maximum among them.
 - In the worst case, the number of leaf nodes in a binary heap is \(\lceil \frac{n}{2} \rceil\) (approximately half of the total nodes).
@@ -248,7 +248,7 @@ Consider the following array of elements 〈89, 19, 50, 17, 12, 15, 2, 5, 7, 11,
 - [ ] 2
 - [x] 3
 
-### Explanation
+### Feedback
 The process of converting an array into a max-heap involves the process of heapification, which ensures that the max-heap property is satisfied.
 For the given array:
 ```
